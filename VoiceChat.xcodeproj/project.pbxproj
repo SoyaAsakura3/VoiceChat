@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85C6D6AA14D22CE8CDEB3A14 /* Pods_VoiceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96537ECE99D106FAE57BBFAB /* Pods_VoiceChat.framework */; };
+		98329307E943E8535C1E6283 /* Pods_VoiceChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8105E912604D9B51C73D27 /* Pods_VoiceChatTests.framework */; };
+		A13907D464629AC954CCCD1C /* Pods_VoiceChat_VoiceChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC41E91236E0B6217ED34C /* Pods_VoiceChat_VoiceChatUITests.framework */; };
 		F1B57AED26D899C00054A4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B57AEC26D899C00054A4FA /* AppDelegate.swift */; };
 		F1B57AEF26D899C00054A4FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B57AEE26D899C00054A4FA /* SceneDelegate.swift */; };
 		F1B57AF126D899C00054A4FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B57AF026D899C00054A4FA /* ContentView.swift */; };
@@ -16,6 +19,7 @@
 		F1B57AFC26D899C30054A4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B57AFA26D899C30054A4FA /* LaunchScreen.storyboard */; };
 		F1B57B0726D899C30054A4FA /* VoiceChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B57B0626D899C30054A4FA /* VoiceChatTests.swift */; };
 		F1B57B1226D899C30054A4FA /* VoiceChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B57B1126D899C30054A4FA /* VoiceChatUITests.swift */; };
+		F1B57B2026D89B6D0054A4FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1B57B1F26D89B6D0054A4FA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5D0F0A92F493B128D58A45 /* Pods-VoiceChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChat.release.xcconfig"; path = "Target Support Files/Pods-VoiceChat/Pods-VoiceChat.release.xcconfig"; sourceTree = "<group>"; };
+		0F8105E912604D9B51C73D27 /* Pods_VoiceChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0626E0A5946A5D66F4B2B2 /* Pods-VoiceChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChatTests.release.xcconfig"; path = "Target Support Files/Pods-VoiceChatTests/Pods-VoiceChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		672CCB19BB2F2FBC66968E7A /* Pods-VoiceChat-VoiceChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChat-VoiceChatUITests.release.xcconfig"; path = "Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96537ECE99D106FAE57BBFAB /* Pods_VoiceChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29EBE53ABE13F54E23C3298 /* Pods-VoiceChat-VoiceChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChat-VoiceChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FC41E91236E0B6217ED34C /* Pods_VoiceChat_VoiceChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceChat_VoiceChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50E8EA7BEF003AF6D725AD2 /* Pods-VoiceChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChatTests.debug.xcconfig"; path = "Target Support Files/Pods-VoiceChatTests/Pods-VoiceChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B6653A19AFA6E733DD7E28 /* Pods-VoiceChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChat.debug.xcconfig"; path = "Target Support Files/Pods-VoiceChat/Pods-VoiceChat.debug.xcconfig"; sourceTree = "<group>"; };
 		F1B57AE926D899C00054A4FA /* VoiceChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B57AEC26D899C00054A4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1B57AEE26D899C00054A4FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,7 @@
 		F1B57B0D26D899C30054A4FA /* VoiceChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B57B1126D899C30054A4FA /* VoiceChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceChatUITests.swift; sourceTree = "<group>"; };
 		F1B57B1326D899C30054A4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B57B1F26D89B6D0054A4FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C6D6AA14D22CE8CDEB3A14 /* Pods_VoiceChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98329307E943E8535C1E6283 /* Pods_VoiceChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13907D464629AC954CCCD1C /* Pods_VoiceChat_VoiceChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8FFD36D934D301BA77B6FCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6653A19AFA6E733DD7E28 /* Pods-VoiceChat.debug.xcconfig */,
+				0A5D0F0A92F493B128D58A45 /* Pods-VoiceChat.release.xcconfig */,
+				C29EBE53ABE13F54E23C3298 /* Pods-VoiceChat-VoiceChatUITests.debug.xcconfig */,
+				672CCB19BB2F2FBC66968E7A /* Pods-VoiceChat-VoiceChatUITests.release.xcconfig */,
+				C50E8EA7BEF003AF6D725AD2 /* Pods-VoiceChatTests.debug.xcconfig */,
+				3B0626E0A5946A5D66F4B2B2 /* Pods-VoiceChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD3BE0059722DD0F32CDB041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96537ECE99D106FAE57BBFAB /* Pods_VoiceChat.framework */,
+				C2FC41E91236E0B6217ED34C /* Pods_VoiceChat_VoiceChatUITests.framework */,
+				0F8105E912604D9B51C73D27 /* Pods_VoiceChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1B57AE026D899C00054A4FA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				F1B57B0526D899C30054A4FA /* VoiceChatTests */,
 				F1B57B1026D899C30054A4FA /* VoiceChatUITests */,
 				F1B57AEA26D899C00054A4FA /* Products */,
+				A8FFD36D934D301BA77B6FCF /* Pods */,
+				CD3BE0059722DD0F32CDB041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +149,7 @@
 				F1B57AF526D899C30054A4FA /* Assets.xcassets */,
 				F1B57AFA26D899C30054A4FA /* LaunchScreen.storyboard */,
 				F1B57AFD26D899C30054A4FA /* Info.plist */,
+				F1B57B1F26D89B6D0054A4FA /* GoogleService-Info.plist */,
 				F1B57AF226D899C00054A4FA /* VoiceChat.xcdatamodeld */,
 				F1B57AF726D899C30054A4FA /* Preview Content */,
 			);
@@ -146,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1B57B1626D899C30054A4FA /* Build configuration list for PBXNativeTarget "VoiceChat" */;
 			buildPhases = (
+				DD9B41B92F10F316932D2004 /* [CP] Check Pods Manifest.lock */,
 				F1B57AE526D899C00054A4FA /* Sources */,
 				F1B57AE626D899C00054A4FA /* Frameworks */,
 				F1B57AE726D899C00054A4FA /* Resources */,
+				5A57C68121A4CCEBCF494718 /* [CP] Embed Pods Frameworks */,
+				D83F0CD008482EB17CBD5210 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1B57B1926D899C30054A4FA /* Build configuration list for PBXNativeTarget "VoiceChatTests" */;
 			buildPhases = (
+				4A486E7C4E239253B88431AC /* [CP] Check Pods Manifest.lock */,
 				F1B57AFE26D899C30054A4FA /* Sources */,
 				F1B57AFF26D899C30054A4FA /* Frameworks */,
 				F1B57B0026D899C30054A4FA /* Resources */,
@@ -181,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1B57B1C26D899C30054A4FA /* Build configuration list for PBXNativeTarget "VoiceChatUITests" */;
 			buildPhases = (
+				7EA92599D0903DA75520A0E3 /* [CP] Check Pods Manifest.lock */,
 				F1B57B0926D899C30054A4FA /* Sources */,
 				F1B57B0A26D899C30054A4FA /* Frameworks */,
 				F1B57B0B26D899C30054A4FA /* Resources */,
+				A8341686CD7851B73A917472 /* [CP] Embed Pods Frameworks */,
+				5CD4FF0E5C5D7BB5DFB806B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +295,7 @@
 				F1B57AFC26D899C30054A4FA /* LaunchScreen.storyboard in Resources */,
 				F1B57AF926D899C30054A4FA /* Preview Assets.xcassets in Resources */,
 				F1B57AF626D899C30054A4FA /* Assets.xcassets in Resources */,
+				F1B57B2026D89B6D0054A4FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +314,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A486E7C4E239253B88431AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A57C68121A4CCEBCF494718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat/Pods-VoiceChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat/Pods-VoiceChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceChat/Pods-VoiceChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD4FF0E5C5D7BB5DFB806B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA92599D0903DA75520A0E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceChat-VoiceChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8341686CD7851B73A917472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceChat-VoiceChatUITests/Pods-VoiceChat-VoiceChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83F0CD008482EB17CBD5210 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat/Pods-VoiceChat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceChat/Pods-VoiceChat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceChat/Pods-VoiceChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9B41B92F10F316932D2004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1B57AE526D899C00054A4FA /* Sources */ = {
@@ -437,6 +625,7 @@
 		};
 		F1B57B1726D899C30054A4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B6653A19AFA6E733DD7E28 /* Pods-VoiceChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +647,7 @@
 		};
 		F1B57B1826D899C30054A4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5D0F0A92F493B128D58A45 /* Pods-VoiceChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +669,7 @@
 		};
 		F1B57B1A26D899C30054A4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50E8EA7BEF003AF6D725AD2 /* Pods-VoiceChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +692,7 @@
 		};
 		F1B57B1B26D899C30054A4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0626E0A5946A5D66F4B2B2 /* Pods-VoiceChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +715,7 @@
 		};
 		F1B57B1D26D899C30054A4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29EBE53ABE13F54E23C3298 /* Pods-VoiceChat-VoiceChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +736,7 @@
 		};
 		F1B57B1E26D899C30054A4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672CCB19BB2F2FBC66968E7A /* Pods-VoiceChat-VoiceChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

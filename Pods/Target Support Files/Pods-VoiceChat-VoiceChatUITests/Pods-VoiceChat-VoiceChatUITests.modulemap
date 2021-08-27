@@ -1,0 +1,6 @@
+framework module Pods_VoiceChat_VoiceChatUITests {
+  umbrella header "Pods-VoiceChat-VoiceChatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
